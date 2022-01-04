@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPEED CONVERTER - YOU CONVERT</title>
+        <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="left">
+                <a href="#"><img src="../assets/logo.png" alt="WAY &ltCODE&gt BASIC"></a>
+            </div>
+            <div id="right">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../wieght/index.html">Weight</a></li>
+                        <li><a href="../temp/index.html">Temperature</a></li>
+                        <li><a href="../length/index.html">Length</a></li>
+                        <li><a href="#">Speed</a></li>
+                        <li><a href="../about/index.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main">
+            <div class="w3-container ws-green">
+                <h2>Speed Converter</h2>
+              </div>
+              
+              <div class="convert" style="margin:0 -16px">
+                <div class="flex">
+                    <div class="w3-half w3-margin-top">
+                        <label>MPH</label>
+                        <input id="inputMPH" class="w3-input w3-border" type="number" placeholder="MPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                      </div>
+                      <div class="w3-half w3-margin-top">
+                        <label>KPH</label>
+                        <input id="inputKPH" class="w3-input w3-border" type="number" placeholder="KPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                      </div>
+                </div>
+                <div class="flex">
+                    <div class="w3-half w3-margin-top">
+                        <label>Knots</label>
+                        <input id="inputKnots" class="w3-input w3-border" type="number" placeholder="Knots" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                      </div>
+                      <div class="w3-half w3-margin-top">
+                        <label>Mach</label>
+                        <input id="inputMach" class="w3-input w3-border" type="number" placeholder="Mach" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                      </div>
+                </div>
+              </div>
+        </section>
+        <section id="footer">
+            <p>Proprietary content. © You Convert. All Rights Reserved. Unauthorized use or distribution prohibited.</p>
+        </section>
+        <footer>
+            <div id="left">
+                <a href="#"><img src="./assets/logo.png" alt="WAY &ltCODE&gt BASIC"></a>
+            </div>
+            <div id="right">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../wieght/index.html">Weight</a></li>
+                        <li><a href="../temp/">Temperature</a></li>
+                        <li><a href="../length/index.html">Length</a></li>
+                        <li><a href="../speed/index.html">Speed</a></li>
+                        <li><a href="../about/index.html">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <section id="phone">
+            <h1>error</h1>
+            <h2>YOUR SCREEN NOT SUPPORTED</h2>
+        </section>
+    </body>
+</html>

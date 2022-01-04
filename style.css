@@ -1,0 +1,227 @@
+@media only screen and (min-width: 1080px){
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+        background: transparent;
+        font-weight: normal;
+        text-decoration: none;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    li {
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    body{
+        font-family: 'Chewy', cursive;
+    }
+    header{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        background: #00ccff83;     
+    }
+    header #left a img{
+        width: 150px;
+        height: 80px;
+        align-items: center;
+    }
+    header #left a img:hover{
+        transform: scale(1.5);
+    }
+    header #right{
+        width: 700px;
+        padding-right: 50px;
+    }
+    header #right nav ul{
+        display: flex;
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+    header #right nav ul li a{
+        color: rgba(0, 0, 0, 0.678);
+    
+    }
+    header #right nav ul li :hover{
+        background: #00CDFF;
+        padding: 5px;
+        border-radius: 20%;
+        color: white;
+    }
+    #main{
+        padding-top: 80px;
+        text-align: center;
+        background-image: url(./assets/main.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    #main h1{
+        border-bottom: #00CDFF 5px solid;
+        border-radius: 20%;
+        width: fit-content;
+        text-align: center;
+        margin-left: 600px;
+        padding-top: 150px;
+        margin-bottom: 50px;
+        font-size: xx-large;
+    }
+    #main p{
+        font-size: large;
+    }
+    #one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 50px;
+    }
+    #one div h1{
+        border-bottom: #00CDFF 5px solid;
+        border-radius: 20%;
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+    #one div p{
+        font-size: large;
+        padding-bottom: 30px;
+    }
+    #one div button{
+        padding: 10px;
+        background: #00CDFF;
+        border: black 2px solid;
+        border-radius: 10%;
+    }
+    #one div button:hover{
+        transform: scale(1.2);
+        
+    }
+    #one div button a{
+        color:black;
+        font-size: medium;
+    }
+    #line{
+        border-bottom: black 5px solid;
+        width: 100%;
+    }
+    #footer{
+        text-align: center;
+    }
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    footer #left a img{
+        width: 150px;
+        height: 80px;
+        align-items: center;
+    }
+    footer #left a img:hover{
+        transform: scale(1.5);
+    }
+    footer #right{
+        width: 700px;
+        padding-right: 50px;
+    }
+    footer #right nav ul{
+        display: flex;
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+    footer #right nav ul li a{
+        color: rgba(0, 0, 0, 0.678);
+    
+    }
+    footer #right nav ul li :hover{
+        background: #00CDFF;
+        padding: 5px;
+        border-radius: 20%;
+        color: white;
+    }
+    #phone{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1080px){
+    header{
+        display: none;
+    }
+    footer{
+        display:none;
+    }
+    #one{
+        display: none;
+    }
+    #line{
+        display: none;
+    }
+    #main{
+        display: none;
+    }
+    #phone{
+        text-align: center;
+        font-family: 'Chewy', cursive;
+    }
+    #footer{
+        display: none;
+    }
+    body{
+        background-color: red;
+        animation: blinking 2s infinite;
+    }
+    @keyframes blinking{
+		50%		{ color: rgb(255, 255, 255)}
+	}
+}
+@media only screen and (min-width: 1500px){
+    header{
+        display: none;
+    }
+    footer{
+        display:none;
+    }
+    #one{
+        display: none;
+    }
+    #line{
+        display: none;
+    }
+    #main{
+        display: none;
+    }
+    #phone{
+        text-align: center;
+        font-family: 'Chewy', cursive;
+    }
+    #footer{
+        display: none;
+    }
+    body{
+        background-color: red;
+        animation: blinking 2s infinite;
+    }
+    @keyframes blinking{
+		50%		{ color: rgb(255, 255, 255)}
+	}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TEMPERATURE CONVERTER - YOU CONVERT</title>
+        <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="left">
+                <a href="#"><img src="../assets/logo.png" alt="WAY &ltCODE&gt BASIC"></a>
+            </div>
+            <div id="right">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../wieght/index.html">Weight</a></li>
+                        <li><a href="#">Temperature</a></li>
+                        <li><a href="../length/index.html">Length</a></li>
+                        <li><a href="../speed/index.html">Speed</a></li>
+                        <li><a href="../about/index.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main">
+            <div class="">
+                <h2>Temperature Converter</h2>
+              </div>
+              
+              <div class="convert">
+                    <div class="w3-halfw3-margin-top">
+                  <label>Fahrenheit</label>
+                  <input id="inputFahrenheit" class="w3-input w3-border" type="number" min="-459.66999999999996" placeholder="Fahrenheit" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                </div>
+                <div class="w3-halfw3-margin-top">
+                  <label>Celsius</label>
+                  <input id="inputCelsius" class="w3-input w3-border" type="number" min="-273.15" placeholder="Celsius" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                </div>
+                <div class="w3-halfw3-margin-top">
+                  <label>Kelvin</label>
+                  <input id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="Kelvin" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                </div>
+              </div>
+        </section>
+        <section id="footer">
+            <p>Proprietary content. © You Convert. All Rights Reserved. Unauthorized use or distribution prohibited.</p>
+        </section>
+        <footer>
+            <div id="left">
+                <a href="#"><img src="../assets/logo.png" alt="WAY &ltCODE&gt BASIC"></a>
+            </div>
+            <div id="right">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../wieght/index.html">Weight</a></li>
+                        <li><a href="#">Temperature</a></li>
+                        <li><a href="../length/index.html">Length</a></li>
+                        <li><a href="../speed/index.html">Speed</a></li>
+                        <li><a href="../about/index.html">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <section id="phone">
+            <h1>error</h1>
+            <h2>YOUR SCREEN NOT SUPPORTED</h2>
+        </section>
+    </body>
+</html>

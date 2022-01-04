@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WIEGHT CONVERTER - YOU CONVERT</title>
+        <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="left">
+                <a href="#"><img src="../assets/logo.png" alt="WAY &ltCODE&gt BASIC"></a>
+            </div>
+            <div id="right">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Weight</a></li>
+                        <li><a href="../temp/index.html">Temperature</a></li>
+                        <li><a href="../length/index.html">Length</a></li>
+                        <li><a href="../speed/index.html">Speed</a></li>
+                        <li><a href="../about/index.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main">
+            <div class="head">
+                <h2>Weight Converter</h2>
+            </div>
+              
+              <div class="convert">
+                <div class="flex">
+                    <div class="on">
+                        <label>Pounds</label>
+                        <input id="inputPounds" class="border" type="number" placeholder="Pounds" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+                      </div>
+                      <div class="on">
+                        <label>Kilograms</label>
+                        <input id="inputKilograms" class="border" type="number" placeholder="Kilograms" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+                      </div>
+                </div>
+                <div class="flex">
+                    <div class="on">
+                        <label>Ounces</label>
+                        <input id="inputOunces" class="border" type="number" placeholder="Ounces" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+                      </div>
+                      <div class="on">
+                        <label>Grams</label>
+                        <input id="inputGrams" class="border" type="number" placeholder="Grams" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+                      </div>
+                </div>
+                <div class="on">
+                  <label>Stones</label>
+                  <input id="inputStones" class="border" type="number" placeholder="Stones" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+                </div>
+              </div>
+        </section>
+        <section id="footer">
+            <p>Proprietary content. © You Convert. All Rights Reserved. Unauthorized use or distribution prohibited.</p>
+        </section>
+        <footer>
+            <div id="left">
+                <a href="#"><img src="../assets/logo.png" alt="WAY &ltCODE&gt BASIC"></a>
+            </div>
+            <div id="right">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="#">Weight</a></li>
+                        <li><a href="../temp/index.html">Temperature</a></li>
+                        <li><a href="../length/index.html">Length</a></li>
+                        <li><a href="../speed/index.html">Speed</a></li>
+                        <li><a href="../about/index.html">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <section id="phone">
+            <h1>error</h1>
+            <h2>YOUR SCREEN NOT SUPPORTED</h2>
+        </section>
+    </body>
+</html>
